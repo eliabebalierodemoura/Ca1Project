@@ -15,9 +15,5 @@ public class EmpService {
 		
 		repo.save(e);
 	
-	}
-
-	
-	
-	
+	}	
 }
