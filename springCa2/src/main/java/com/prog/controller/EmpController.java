@@ -27,7 +27,7 @@ public class EmpController {
 	private EmpService service;
 	
 	
-	@GetMapping("/")
+	@GetMapping("/index")
 public String home(Model m) {
 List<Employee> emp=service.getAllEmp();
 m.addAttribute("emp", emp);	
